@@ -1,0 +1,3 @@
+keyid='C0A52C50'
+gpg --keyserver pgpkeys.mit.edu --recv-key "$keyid"
+gpg -a --export "$keyid" >"$keyid.pub"
